@@ -23,7 +23,7 @@
 
       let lines = [];
       if(name) lines.push(`Name: ${name}`); 
-      if(email) lines.push(`phone: ${email}`);
+      if(email) lines.push(`Email: ${email}`);
       if(body) {
         lines.push("");
         lines.push(body);
@@ -82,4 +82,5 @@
 
       // Open in a new tab/window
       window.open(waLink, "_blank", "noopener");
+
     });
